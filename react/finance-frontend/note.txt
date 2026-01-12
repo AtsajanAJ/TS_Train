@@ -1,0 +1,14 @@
+
+Basic React
+
+1. Component seperate pages into small part for define ui structure
+2. Props (one-way data flow) parent -> child
+   > child cannot modify 
+3. State เปลี่ยนแปลงข้อมูลภายในได้ เมื่อ state เปลี่ยน หน้าจอจะอัพเดท อัตโนมัติ
+4. Hooks -> special function for manage logic etc.,
+   > useState: manage data
+   > useEffect: ทำนอกเหนือจากการ render etc., fetch API
+5. Event Handling (onclick, onchange
+
+มองทุกอย่างเป็นชิ้นส่วน (Component), ส่งค่าผ่าน Props, เก็บข้อมูลใน State และ
+ใช้ Hooks ควบคุมการทำงาน
